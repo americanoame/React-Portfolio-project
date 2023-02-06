@@ -1,38 +1,35 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+:root {
+    --royalblue: royalblue;
+    --white: rgb(235, 235, 235);
+}
+
+html {
+    font-size: 62.5%;   
+}
+
+/* ------- MENU LINKS ------- */
+
+.nav {
+  padding: 3rem;
+  background-image: linear-gradient(to right, rgb(0, 110, 255) , yellow);
+  font-family: 'Noto Sans JP', sans-serif;
+} 
+
+.nav-item {
   text-align: center;
+  font-size: 2rem; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item a {
+  color: var(--white);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* ------ PARALLAX ------- */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }

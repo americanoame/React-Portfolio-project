@@ -1,9 +1,18 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
+import Parallax from './components/parallax';
+
+
+
 function App() {
   return (
-    <h1>Porfolio Project</h1>
+    <>
+    <Navbar />
+
+    <Parallax />
+    </>
   );
 }
 
