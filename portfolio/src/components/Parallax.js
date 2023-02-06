@@ -1,12 +1,12 @@
 import React from "react";
 import "../App.css";
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { Parallax } from "@react-spring/parallax";
 
 const AndreProfolio = () => {
   return (
     <div>
-      <Parallax pages={3} style={{backgroundImage: "../public/img/parallax.jpg"}}>
+      <Parallax pages={3} style={{backgroundImage: "../src/img/parallax.jpg"}}>
       
         <Parallax offset={0} 
         className="center"
