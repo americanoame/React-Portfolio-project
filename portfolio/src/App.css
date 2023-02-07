@@ -1,35 +1,379 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
 
 :root {
-    --royalblue: royalblue;
-    --white: rgb(235, 235, 235);
+  --royalblue: royalblue;
+  --white: rgb(235, 235, 235);
 }
 
 html {
-    font-size: 62.5%;   
+  font-size: 62.5%;
 }
 
 /* ------- MENU LINKS ------- */
 
 .nav {
+
   padding: 3rem;
-  background-image: linear-gradient(to right, rgb(0, 110, 255) , yellow);
+  background-image: linear-gradient(to right, rgb(0, 110, 255), yellow);
   font-family: 'Noto Sans JP', sans-serif;
-} 
+}
 
 .nav-item {
   text-align: center;
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .nav-item a {
   color: var(--white);
 }
 
-/* ------ PARALLAX ------- */
 
-.center {
+.main-info {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(./assets/photo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+
+}
+
+.main-info {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  /* margin-top: 20rem */
 }
+
+.my-name {
+  color: #fff;
+  font-size: 7rem;
+}
+
+.front-end {
+  background-image: linear-gradient(to right, rgb(0, 110, 255), yellow);
+  padding: 7px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 30px;
+}
+
+@media (max-width: 550px) {
+  .my-name {
+    font-size: 4rem;
+  } 
+}
+
+
+@media (max-width: 400px) {
+  .my-name {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+  .about-wraper {
+    margin-top: 6rem;
+  }
+
+  body {
+    margin-top: 20px;
+  }
+
+  /* About Me 
+---------------------*/
+  @media (max-width: 991px) {
+    .about-text {
+      margin-top: 40px;
+    }
+  }
+
+  .about-text h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+
+  @media (max-width: 767px) {
+    .about-text h3 {
+      font-size: 35px;
+    }
+  }
+
+  .about-text h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 767px) {
+    .about-text h4 {
+      font-size: 18px;
+    }
+  }
+
+  .about-text p {
+    font-size: 18px;
+  }
+
+  .about-text p mark {
+    font-weight: 600;
+    color: #3a3973;
+  }
+
+  .about-text .btn-bar {
+    padding-top: 8px;
+  }
+
+  .about-text .btn-bar a {
+    min-width: 150px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .about-list {
+    padding-top: 10px;
+  }
+
+  .about-list .media {
+    padding: 5px 0;
+  }
+
+  .about-list label {
+    color: #3a3973;
+    font-weight: 600;
+    width: 88px;
+    margin: 0;
+    position: relative;
+  }
+
+  .about-list label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 11px;
+    width: 1px;
+    height: 12px;
+    background: #3a3973;
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    margin: auto;
+    opacity: 0.5;
+  }
+
+  .about-list p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .about-img {
+    box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    background: #ffffff;
+
+  }
+
+  .about-img {
+    border-radius: 90px;
+  }
+
+
+  @media (max-width: 991px) {
+    .about-img {
+      margin-top: 30px;
+
+    }
+  }
+
+  .counter-section {
+    padding: 40px 20px;
+  }
+
+  .counter-section .count-data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .counter-section .count {
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 10px;
+  }
+
+  .counter-section p {
+    font-weight: 500;
+    margin: 0;
+    color: #fe4f6c;
+  }
+
+  .theme-color {
+    color: #fe4f6c;
+  }
+
+  .section {
+    padding: 100px 0;
+    position: relative;
+  }
+
+  .gray-bg {
+    background-color: #ebf4fa;
+  }
+
+  .px-btn.theme {
+    background: #fe4f6c;
+    color: #ffffff;
+    border: 2px solid #fe4f6c;
+  }
+
+  .px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .px-btn.theme-t {
+    background: transparent;
+    border: 2px solid #fe4f6c;
+    color: #fe4f6c;
+  }
+
+  /* ------PRROJECTS------ */
+
+  #projects {
+    margin-top: 130px;
+  }
+
+  body {
+    background: #eee;
+    margin-top: 20px;
+  }
+
+  .card-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-wrapper .card-img {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+  }
+
+  .card-wrapper .card-img img {
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+  }
+
+  .card-wrapper .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    transform: translateX(-100%);
+    transition: 0.8s;
+    z-index: 11;
+  }
+
+  .card-wrapper:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    z-index: 9;
+    transition: 0.8s;
+    background: rgba(0, 186, 238, 0.82);
+    border-radius: 0.25rem;
+  }
+
+  .card-wrapper:hover:before {
+    right: 0;
+  }
+
+  .card-wrapper h3,
+  .card-wrapper p {
+    color: #fff;
+  }
+
+  .card-wrapper .read-more {
+    color: #fff;
+  }
+
+  .card-wrapper .read-more:after {
+    color: #fff;
+  }
+
+  .card-wrapper:hover .card-body {
+    visibility: visible;
+    transform: translateX(0px);
+  }
+
+  .card-wrapper:hover .backgound-color {
+    right: 0;
+  }
+
+  .mb-1-9,
+  .my-1-9 {
+    margin-bottom: 1.9rem;
+  }
+
+  @media (min-width: 992px) {
+
+    .mb-lg-0,
+    .my-lg-0 {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .read-more:after {
+    content: '\f0a9';
+    font-family: Font Awesome\ 5 Free;
+    font-weight: 600;
+    padding-left: 8px;
+    font-weight: 900;
+    color: #00baee;
+    vertical-align: middle;
+  }
+
+
+  /* ----CONTACT------ */
+
+  .mb-4 {
+    padding-left: 20px;
+    margin-top: 100px;
+    background-image: linear-gradient(to right, rgb(0, 110, 255), yellow);
+
+  }
+
+  .bg-light {
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8));
+    color: #ebf4fa;
+    font-size: 12px;
+  }

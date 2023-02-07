@@ -4,13 +4,13 @@ const Navabar = () => {
   return (
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" href="#">About</a>
+        <a class="nav-link active" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Project</a>
+        <a class="nav-link" href="#projects">Project</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">contact</a>
+        <a class="nav-link" href="#contact">contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/americanoame">Github</a>
