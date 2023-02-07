@@ -14,8 +14,8 @@ const About = () => {
                                 <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
                                 <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
                                 <div class="btn-bar">
-                                    <a class="px-btn theme" href="#">GitHub Account</a>
-                                    <a class="px-btn theme-t" href="#">Download CV</a>
+                                    <a class="px-btn theme" href="https://github.com/americanoame">GitHub Account</a>
+                                    {/* <a class="px-btn theme-t" href="#">Download CV</a> */}
                                 </div>
                             </div>
                         </div>
