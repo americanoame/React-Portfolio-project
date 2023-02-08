@@ -3,7 +3,7 @@ import teamgenerator from "../assets/teamgenerator.png";
 const Projects = () => {
     return (
         <div>
-            <div class="container my-5">
+            <div id="projects" class="container my-5">
                 <h2 class="text-center">Image Gallery</h2>
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-6 thumb">
