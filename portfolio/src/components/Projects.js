@@ -3,7 +3,45 @@ import teamgenerator from "../assets/teamgenerator.png";
 const Projects = () => {
     return (
         <div>
-            <section id="projects">
+            <div class="container my-5">
+                <h2 class="text-center">Image Gallery</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-6 thumb">
+                        <a href="#" data-toggle="modal" data-target="#image1">
+                            <img class="img-fluid" src={teamgenerator} alt="Image 1" />
+                        </a>
+                        <div>
+                            <a class="btn-project" href="https://github.com/americanoame/MERN-Book-Search-Engine">the note taker</a>
+                        </div>
+
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 thumb">
+                        <a href="#" data-toggle="modal" data-target="#image2">
+                            <img class="img-fluid" src={teamgenerator} alt="Image 2" />
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 thumb">
+                        <a href="#" data-toggle="modal" data-target="#image2">
+                            <img class="img-fluid" src={teamgenerator} alt="Image 2" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    )
+}
+
+export default Projects;
+
+
+
+
+
+{/* <section id="projects">
                 <div class="container">
                     <div class="text-center mb-5">
                         <h5 class="text-primary h1">Projects</h5>
@@ -74,54 +112,6 @@ const Projects = () => {
 
                 </div>
             </section>
-        </div>
-    )
-}
-
-export default Projects;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <section id="projects">
-            <div class="container mx-auto mt-4">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img esrc="https://i.imgur.com/ZTkt4I5.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
-                                <a href="#" class="btn "><i class="fab fa-github"></i> Github</a>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-4">
-                        <div class="card" style="width: 18rem;">
-                            <img src="https://i.imgur.com/ZTkt4I5.jpg" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
-                                <a href="#" class="btn"><i class="fab fa-github"></i> Github</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> */}
+ */}
