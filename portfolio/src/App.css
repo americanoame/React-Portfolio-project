@@ -326,8 +326,8 @@ body {
 
   /* ----CONTACT------ */
 
-  .mb-4 {
-    padding-left: 20px;
+  #mb-4 {
+    padding: 50px;
     margin-top: 100px;
     background-image: linear-gradient(to right, rgb(0, 110, 255), yellow);
 
@@ -368,3 +368,89 @@ body {
     margin-left: 20px; */
 
   }
+  
+  
+  
+
+
+
+  .section-header  {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+
+  .section-header p {
+    font-size: 18px;
+  }
+
+  .single-service {
+    text-align: center; 
+  }
+
+
+  .service-bg {
+    height: 200px;
+    position: relative;
+  }
+
+
+
+
+  .service-bg-1 {
+    /* max-width: 100%;
+    height: auto; */
+    background: url("./assets/teamgenerator.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .service-bg-2 {
+    background: url("./assets/teamgenerator.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .service-bg-3 {
+    background: url("./assets/teamgenerator.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .service-bg-4 {
+    background: url("./assets/teamgenerator.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  .service-bg-5 {
+    background: url("./assets/teamgenerator.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .service-text {
+    padding: 10px 30px 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .service-text p {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .btn-area {
+    display: inline-block;
+    padding: 5px;
+    color: green;
+    margin-top: 10px;
+    font-size: 18px;
+    
+  }
+
+  
