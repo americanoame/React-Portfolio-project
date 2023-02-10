@@ -11,8 +11,27 @@ const About = () => {
                             <div class="about-text">
                                 <h3 class="dark-color">Do some awsome stuff with me.</h3>
                                 <h4 class="theme-color">UI / UX Designer &amp; Web Developer</h4>
-                                <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
-                                <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                                <p>I am a highly motivated and web developer grauduated from
+                                    Rutgers Full stack we developer.
+                                    Throughout my studies, I have consistently
+                                    demonstrated my passion for creating innovative and user-friendly
+                                    websites that meet the needs of diverse audiences.</p>
+
+                                <p>I have had the opportunity to work on a variety of projects and
+                                    technologies, which has allowed me to develop a well-rounded skill
+                                    set and deep understanding of web development. I am always eager to
+                                    expand my knowledge and take on new challenges..</p>
+
+                                <p>Technical Skills:
+
+                                    HTML,
+                                    CSS,
+                                    JavaScript,
+                                    React,
+                                    Node.js,
+                                    
+                                    Git</p>
+
                                 <div class="btn-bar">
                                     <a class="px-btn theme" href="https://github.com/americanoame">GitHub Account</a>
                                     <a class="px-btn theme-t" href="#">Download CV</a>

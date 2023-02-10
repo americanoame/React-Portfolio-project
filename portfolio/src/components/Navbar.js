@@ -2,7 +2,7 @@ import React from "react";
 
 const Navabar = () => {
   return (
-    <ul class="nav justify-content-center">
+    <ul class="nav fixed-top navbar-expand-lg justify-content-center">
       <li class="nav-item">
         <a class="nav-link active" href="#about">About</a>
       </li>

@@ -385,6 +385,8 @@ body {
   }
 
   .single-service {
+    
+    
     text-align: center; 
   }
 
@@ -400,10 +402,14 @@ body {
   .service-bg-1 {
     /* max-width: 100%;
     height: auto; */
-    background: url("./assets/teamgenerator.png");
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
+    background: url("./assets/teamgenerator.png") no-repeat;
+    background-position: center; 
+
+
+    /* -webkit-background-size: cover; */
+     /* background-size: cover;  */
+    /* object-position: 100% 0%;
+    object-fit: cover; */
   }
 
   .service-bg-2 {
@@ -418,6 +424,8 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
+
+
   }
 
   .service-bg-4 {
