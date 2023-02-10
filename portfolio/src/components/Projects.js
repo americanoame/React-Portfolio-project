@@ -20,30 +20,30 @@ const Projects = () => {
                             </div>
                             <div class="service-text">
                                 <p>NoSQL-SOCIAL-Network-API</p>
-                                <a href="" class="btn-area">Check Out</a>
+                                <a href="https://github.com/americanoame/NoSQL-SOCIAL-Network-API" class="btn-area">Check Out</a>
                             </div>
                             <div class="service-text">
                                 <p>MERN-Book-Search-Engine</p>
-                                <a href="" class="btn-area">Check Out</a>
+                                <a href="https://github.com/americanoame/MERN-Book-Search-Engine" class="btn-area">Check Out</a>
                             </div>
                             <div class="service-text">
                                 <p>MDV-controller-Tech-Blog</p>
-                                <a href="" class="btn-area">Check Out</a>
+                                <a href="https://github.com/americanoame/MDV-controller-Tech-Blog" class="btn-area">Check Out</a>
                             </div>
 
                             <div class="service-text">
                                 <p>Note-Taker</p>
-                                <a href="" class="btn-area">Check Out</a>
+                                <a href="https://github.com/americanoame/Note-Taker" class="btn-area">Check Out</a>
                             </div>
 
                             <div class="service-text">
-                                <p>enerateMarkdown</p>
-                                <a href="" class="btn-area">Check Out</a>
+                                <p>GenerateMarkdown</p>
+                                <a href="https://github.com/americanoame/generateMarkdown" class="btn-area">Check Out</a>
                             </div>
 
                             <div class="service-text">
                                 <p>Profolio-Generator-</p>
-                                <a href="" class="btn-area">Check Out</a>
+                                <a href="https://github.com/americanoame/Profolio-Generator-" class="btn-area">Check Out</a>
                             </div>
                         </div>
                     </div>
