@@ -10,7 +10,7 @@ const Navabar = () => {
         <a class="nav-link" href="#projects">Project</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./contact">contact</a>
+        <a class="nav-link" href="#contact">contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/americanoame">Github</a>
